@@ -1,0 +1,43 @@
+.tasklist{
+   width: 100%;
+   border:1px solid black;
+   max-width: 580px;
+   height: 720px;
+   overflow: auto;
+    padding: 3rem 1rem 0;
+    header{
+      text-align: center;
+    }
+    h2{
+      font-size: 2rem;
+      font-weight: bold;
+    }
+}
+
+.task{
+  padding: 1rem;
+  box-shadow: 0 0 2px 1px rgb(245, 245, 245);
+  margin-bottom: 1.3rem;
+  // p{
+  //   font-size: 14px;
+  // }
+  // p
+  // }
+  // p:nth-child(2){
+  //   font-size: 1.25rem;
+  //   font-weight: bold;
+  // }
+
+}
+
+.controls{
+  margin-top: 1rem;
+  button{
+    background-color: tomato;
+    border-radius: 6px;
+    border:none;
+    color:white;
+    margin: 0.25rem;
+  }
+}
+ 
